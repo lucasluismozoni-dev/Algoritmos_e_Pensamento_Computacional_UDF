@@ -1,0 +1,131 @@
+1. Dois inteiros e duas operações
+
+#include <stdio.h>
+
+
+
+int main() {
+
+  int num1, num2, soma, produto;
+
+
+
+  printf("Digite o primeiro número inteiro: ");
+
+  scanf("%d", &num1);
+
+
+
+  printf("Digite o segundo número inteiro: ");
+
+  scanf("%d", &num2);
+
+
+
+  soma = num1 + num2;
+
+  produto = num1 * num2;
+
+
+
+  printf("%d + %d = %d\n", num1, num2, soma);
+
+  printf("%d * %d = %d\n", num1, num2, produto);
+
+
+
+  return 0;
+
+}
+
+2. Média de dois números reais
+
+#include <stdio.h>
+
+
+
+int main() {
+
+  float numA, numB, media;
+
+
+
+  printf("Digite o primeiro número real: ");
+
+  scanf("%f", &numA);
+
+
+
+  printf("Digite o segundo número real: ");
+
+  scanf("%f", &numB);
+
+
+
+  media = (numA + numB) / 2;
+
+
+
+  printf("A média entre %.1f e %.1f é %.1f\n", numA, numB, media);
+
+
+
+  return 0;
+
+}
+
+3. Sucessor e antecessor
+
+#include <stdio.h>
+
+
+
+int main() {
+
+  int num;
+
+
+
+  printf("Digite um número inteiro: ");
+
+  scanf("%d", &num);
+
+
+
+  printf("Número digitado: %d. Sucessor: %d. Antecessor: %d\n", num, num + 1, num - 1);
+
+
+
+  return 0;
+
+}
+
+4. Número elevado ao quadrado
+
+#include <stdio.h>
+
+
+
+int main() {
+
+  int num, resultado;
+
+
+
+  printf("Digite um número inteiro: ");
+
+  scanf("%d", &num);
+
+
+
+  resultado = num * num;
+
+
+
+  printf("O número %d elevado a 2 é %d\n", num, resultado);
+
+
+
+  return 0;
+
+}
