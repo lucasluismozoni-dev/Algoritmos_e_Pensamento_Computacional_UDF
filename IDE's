@@ -1,73 +1,58 @@
-Atividade Prática
+Atividade Prática – Ferramenta para Programação em C
+Integrantes do Grupo
 
-Conteúdo da avaliação
-Orientações:
+[Adicionar nomes aqui]
 
-Atividade prática avaliativa (1,0 ponto) - Nota individual - Entrega na plataforma (0,3) - Apresentação (0,7)
-Atividade em grupo de 4 integrantes
-Apenas um integrante faz a postagem da atividade, porém a apresentação e monitoria todos devem participar
-Usar o campo editável para fazer a entrega (Não anexar arquivo)
+Ferramenta Escolhida
 
+CLion (JetBrains)
 
-O que fazer:
-
-11/09
-Pesquisar uma ferramenta para programação na linguagem C
-Colocar no blackboard os integrantes
-Colocar no blackboard o nome da ferramenta
-Apresentar para a turma:
-Principais vantagens percebidas pelo grupo
-Principais desvantagens percebidas pelo grupo
-Demonstrar seu uso com um exemplo prático (Exemplo com o uso de entrada de dados via usuário e saída de dados). Não pode usar exemplo com estrutura de decisão ou repetição, conteúdo ainda não visto em sala de aula
-Colocar na atividade nome dos integrantes
------------------------------------------
 Vantagens
-Ajuda a escrever o código: completa as palavras e dá sugestões.
-Mostra erros na hora: fica mais fácil corrigir.
-Depuração (debug): dá pra parar o programa no meio e ver o que está acontecendo “por dentro”.
-Organiza projetos grandes: ótimo quando o código tem vários arquivos.
-Funciona em qualquer sistema: Windows, Linux e Mac.
+
+Ajuda na escrita do código com autocompletar e sugestões inteligentes.
+
+Exibe erros em tempo real, facilitando a correção.
+
+Possui depurador (debug) integrado, permitindo pausar o programa e analisar variáveis.
+
+Ótimo para projetos grandes, com múltiplos arquivos.
+
+É multiplataforma (Windows, Linux e macOS).
+
 Desvantagens
-É pago: só tem versão grátis por um tempo (ou se for estudante).
-Pesado: precisa de um computador mais forte, senão trava.
-Complicado para iniciantes: usa um sistema chamado CMake que pode confundir quem só quer rodar um programinha simples.
-Mais voltado para C++: em C funciona, mas foi pensado principalmente para C++.
 
+É pago, com versão gratuita apenas para estudantes ou período de teste.
 
-#include
+Pode ser pesado, exigindo um computador melhor.
 
+A configuração inicial utiliza CMake, o que pode confundir iniciantes.
 
+Embora funcione com C, é uma ferramenta focada principalmente em C++.
+
+Exemplo Prático de Uso em C
+
+Entrada e saída de dados (sem estruturas de decisão ou repetição):
+
+#include <stdio.h>
 
 int main() {
+    int idade;
+    char nome[50];
 
-  int idade;
+    // Entrada de dados
+    printf("Digite seu nome: ");
+    scanf("%s", nome); // lê apenas uma palavra
 
-  char nome[50];
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
 
+    // Saída de dados
+    printf("\nOlá, %s! Você tem %d anos.\n", nome, idade);
 
-
-  // Entrada de dados
-
-  printf("Digite seu nome: ");
-
-  scanf("%s", nome); // lê uma palavra (sem espaços)
-
-
-
-  printf("Digite sua idade: ");
-
-  scanf("%d", &idade);
-
-
-
-  // Saída de dados
-
-  printf("\nOlá, %s! Você tem %d anos.\n", nome, idade);
-
-
-
-  return 0;
-
+    return 0;
 }
 
-Acesse a apresentação em: https://www.canva.com/design/DAGheNqjYnM/iPXVkxtNMiEsrNx_Jyh51g/edit?utm_content=DAGheNqjYnM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Link da Apresentação
+
+Acesse a apresentação completa no Canva:
+https://www.canva.com/design/DAGheNqjYnM/iPXVkxtNMiEsrNx_Jyh51g/edit?utm_content=DAGheNqjYnM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
