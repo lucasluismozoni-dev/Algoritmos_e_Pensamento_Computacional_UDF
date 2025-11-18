@@ -1,0 +1,71 @@
+Atividade Prática
+
+Conteúdo da avaliação
+Orientações:
+
+Atividade prática avaliativa (1,0 ponto) - Nota individual - Entrega na plataforma (0,3) - Apresentação (0,7)
+Atividade em grupo de 4 integrantes
+Apenas um integrante faz a postagem da atividade, porém a apresentação e monitoria todos devem participar
+Usar o campo editável para fazer a entrega (Não anexar arquivo)
+
+
+O que fazer:
+
+11/09
+Pesquisar uma ferramenta para programação na linguagem C
+Colocar no blackboard os integrantes
+Colocar no blackboard o nome da ferramenta
+Apresentar para a turma:
+Principais vantagens percebidas pelo grupo
+Principais desvantagens percebidas pelo grupo
+Demonstrar seu uso com um exemplo prático (Exemplo com o uso de entrada de dados via usuário e saída de dados). Não pode usar exemplo com estrutura de decisão ou repetição, conteúdo ainda não visto em sala de aula
+Colocar na atividade nome dos integrantes
+-----------------------------------------
+Vantagens
+Ajuda a escrever o código: completa as palavras e dá sugestões.
+Mostra erros na hora: fica mais fácil corrigir.
+Depuração (debug): dá pra parar o programa no meio e ver o que está acontecendo “por dentro”.
+Organiza projetos grandes: ótimo quando o código tem vários arquivos.
+Funciona em qualquer sistema: Windows, Linux e Mac.
+Desvantagens
+É pago: só tem versão grátis por um tempo (ou se for estudante).
+Pesado: precisa de um computador mais forte, senão trava.
+Complicado para iniciantes: usa um sistema chamado CMake que pode confundir quem só quer rodar um programinha simples.
+Mais voltado para C++: em C funciona, mas foi pensado principalmente para C++.
+
+
+#include
+
+
+
+int main() {
+
+  int idade;
+
+  char nome[50];
+
+
+
+  // Entrada de dados
+
+  printf("Digite seu nome: ");
+
+  scanf("%s", nome); // lê uma palavra (sem espaços)
+
+
+
+  printf("Digite sua idade: ");
+
+  scanf("%d", &idade);
+
+
+
+  // Saída de dados
+
+  printf("\nOlá, %s! Você tem %d anos.\n", nome, idade);
+
+
+
+  return 0;
+
+}
